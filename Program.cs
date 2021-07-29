@@ -36,29 +36,14 @@ namespace Collections
             }
 
         }
-        static void SortedListEg()
-        {
-            SortedList ht1 = new SortedList();
-            ht1.Add("j", "JAVA");
-            ht1.Add("o", "Operating System");
-            ht1.Add("u", "Unix");
-            ht1.Add('n', "Networks");
-            ht1.Add("U", "Unix");
-
-            Console.WriteLine(ht1.Contains("0"));
-            foreach (DictionaryEntry d in ht1)
-            {
-                Console.WriteLine(d.Key + ":" + d.Value);
-            }
-
-        }
+        
         static void Main()
         {
             ArrayEg();
             Console.WriteLine("HashTable");
             Hashtablefg();
             Console.WriteLine("SortedList");
-            SortedListEg();
+            
         }
      }
         
